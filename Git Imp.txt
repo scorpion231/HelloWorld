@@ -1,0 +1,14 @@
+…or create a new repository on the command line
+
+echo "# HelloWorld" >> README.md
+git init (one time (local pe alag se n remote mei baad mei)
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:scorpion231/HelloWorld.git
+git push -u origin master
+                
+
+…or push an existing repository from the command line
+
+git remote add origin git@github.com:scorpion231/HelloWorld.git
+git push -u origin master
